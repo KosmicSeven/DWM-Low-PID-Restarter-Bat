@@ -7,6 +7,7 @@
 <h2>📄 How It Works</h2>
 
 <ol>
+  <li><strong>Run Bat Script as Administrator.</strong></li>
   <li>Kills <code>dwm.exe</code></li>
   <li>Restarts it</li>
   <li>Checks its PID</li>
@@ -21,7 +22,6 @@
   <li>This script kills and restarts <code>dwm.exe</code>, which controls your Windows UI.</li>
   <li>Use only if you understand the risk of screen flickers or temporary instability if dwm fails to restart.</li>
       (It shouldn't fail. A system restart will fix it if it does fail to start.)
-  <li><strong>Run as Administrator.</strong></li>
 </ul>
 
 <hr>
@@ -67,13 +67,3 @@ pause
 <h2>🕒 Typical Runtime</h2>
 
 <p>⏱ 2–10 minutes depending on random chance of getting a PID value below 1000.</p>
-
-<hr>
-
-<h2>🧰 Requirements</h2>
-
-<ul>
-  <li>Windows 10 or 11</li>
-  <li>Admin privileges</li>
-  <li>Command Prompt (<code>.bat</code> file)</li>
-</ul>
