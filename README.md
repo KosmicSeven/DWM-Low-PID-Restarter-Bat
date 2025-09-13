@@ -4,15 +4,23 @@
 
 <hr>
 
+<h2>🔄️ Run Script</h2>
+
+<ol>
+  <li><strong>Run as Administrator.</strong></li>
+  <li>Let CMD run. The script logs each restart and PID attempt.</li>
+  <li>It stops automatically once <code>dwm.exe</code> has a PID between <strong>1–999</strong>.</li>
+</ol>
+
+<hr>
+
 <h2>📄 How It Works</h2>
 
 <ol>
-  <li><strong>1.) Run as Administrator.</strong></li>
-  <li><strong>2.) Let CMD run until PID value is between 1-999. Logs are displayed.</strong></li>
   <li>Kills <code>dwm.exe</code></li>
   <li>Restarts it</li>
-  <li>Checks its PID</li>
-  <li>Repeats every 10 seconds until the PID is between <code>1–999</code></li>
+  <li>Checks the new PID</li>
+  <li>Repeats every 10 seconds until PID is <code>&lt; 1000</code></li>
 </ol>
 
 <hr>
@@ -20,9 +28,9 @@
 <h2>⚠️ Disclaimer</h2>
 
 <ul>
-  <li>This script kills and restarts <code>dwm.exe</code>, which controls your Windows UI.</li>
-  <li>Use only if you understand the risk of screen flickers or temporary instability if dwm fails to restart.</li>
-      (It shouldn't fail. A system restart will fix it if it does fail to start.)
+  <li>This script restarts <code>dwm.exe</code>, which manages the Windows desktop environment.</li>
+  <li>You may experience flickering or momentary instability during the process.</li>
+  <li>If <code>dwm.exe</code> fails to restart (unlikely), rebooting the system will restore it.</li>
 </ul>
 
 <hr>
@@ -67,4 +75,4 @@ pause
 
 <h2>🕒 Typical Runtime</h2>
 
-<p>⏱ 2–10 minutes depending on random chance of getting a PID value below 1000.</p>
+<p>⏱ 2–10 minutes depending on PID assignment timing.</p>
