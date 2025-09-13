@@ -19,7 +19,7 @@
 
 <ul>
   <li>This script kills and restarts <code>dwm.exe</code>, which controls your Windows UI.</li>
-  <li>Use only if you understand the risk of screen flickers or temporary instability if dwm fails to restart. (It shouldn't fail. A system restart will fix it.)</li>
+  <li>Use only if you understand the risk of screen flickers or temporary instability if dwm fails to restart. (It shouldn't fail. A system restart will fix it if it does fail to start.)</li>
   <li><strong>Run as Administrator.</strong></li>
 </ul>
 
