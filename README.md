@@ -4,12 +4,12 @@
 
 <hr>
 
-<h2>⚠️ Disclaimer</h2>
+<h2>🧰 Requirements</h2>
 
 <ul>
-  <li>This script kills and restarts <code>dwm.exe</code>, which controls your Windows UI.</li>
-  <li>Use only if you understand the risk of screen flickers or temporary instability.</li>
-  <li><strong>Run as Administrator.</strong></li>
+  <li>Windows 10 or 11</li>
+  <li>Admin privileges</li>
+  <li>Command Prompt (<code>.bat</code> file)</li>
 </ul>
 
 <hr>
@@ -25,12 +25,12 @@
 
 <hr>
 
-<h2>🧰 Requirements</h2>
+<h2>⚠️ Disclaimer</h2>
 
 <ul>
-  <li>Windows 10 or 11</li>
-  <li>Admin privileges</li>
-  <li>Command Prompt (<code>.bat</code> file)</li>
+  <li>This script kills and restarts <code>dwm.exe</code>, which controls your Windows UI.</li>
+  <li>Use only if you understand the risk of screen flickers or temporary instability.</li>
+  <li><strong>Run as Administrator.</strong></li>
 </ul>
 
 <hr>
@@ -75,4 +75,4 @@ pause
 
 <h2>🕒 Typical Runtime</h2>
 
-<p>⏱ 2–10 minutes depending on system load and timing.</p>
+<p>⏱ 2–10 minutes depending on random chance of getting a PID value below 1000.</p>
