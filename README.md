@@ -2,8 +2,6 @@
 
 <p>This batch script repeatedly restarts <strong>Desktop Window Manager (<code>dwm.exe</code>)</strong> until it gets a <strong>PID below 1000</strong>.</p>
 
-<p>Some tools or hacks work best (or only) when <code>dwm.exe</code> runs with a low PID. Since Windows doesn’t let you reserve or assign PIDs, this script brute-forces the outcome.</p>
-
 <hr>
 
 <h2>⚠️ Disclaimer</h2>
