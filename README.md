@@ -10,6 +10,7 @@
   <li><strong>Run as Administrator.</strong></li>
   <li>Let CMD run. The script logs each restart and PID attempt.</li>
   <li>It stops automatically once <code>dwm.exe</code> has a PID between <strong>1–999</strong>.</li>
+  <li>Close CMD once you get a <1000 PID value.</li>
 </ol>
 
 <hr>
