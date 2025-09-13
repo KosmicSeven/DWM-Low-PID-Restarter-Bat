@@ -7,7 +7,8 @@
 <h2>📄 How It Works</h2>
 
 <ol>
-  <li><strong>Run Bat Script as Administrator.</strong></li>
+  <li><strong>1.) Run as Administrator.</strong></li>
+  <li><strong>2.) Let CMD run until PID value is between 1-999. Logs are displayed.</strong></li>
   <li>Kills <code>dwm.exe</code></li>
   <li>Restarts it</li>
   <li>Checks its PID</li>
